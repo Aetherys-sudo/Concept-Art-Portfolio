@@ -4,6 +4,9 @@
   --secondary-text-color: #333333;
 }
 
+.contact {
+  display: none;
+}
 html, body {
   /* Removes the default body margin */
   margin: 0; 
