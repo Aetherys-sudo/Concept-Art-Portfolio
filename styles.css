@@ -182,7 +182,7 @@ nav {
 .pic {
   width: 400px;
   height: 400px;
-  object-fit: cover; 
+  object-fit: scale-down; 
   transition: 0.3s;
 }
 
