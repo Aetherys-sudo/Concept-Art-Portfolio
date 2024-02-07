@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/3a148ea568.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="logo" src="index.html">logo</a>
+                
+                <ul class="nav-links">
+                    <li><a class="home" href="index.html">Home</a></li>
+                    <li><a class="about" href="index.html#about">About</a></li>
+                    <li><a class="my-work" href="index.html#work">My Work</a></li>
+                    <li><a class="contact" href="#home">Contact</a></li>
+                </ul>
+    
+                <div class="socials">
+                    <i class="fa-brands fa-facebook fa-2x" style="color: #333333;"></i>
+                    <i class="fa-brands fa-instagram fa-2x" style="color: #333333;"></i>
+                    <i class="fa-brands fa-linkedin fa-2x" style="color: #333333;"></i>
+                </div>
+                    
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav> 
+        </header>
+
+        <div class="container">
+            <form class="contact-form" id="contact-form" method="post" target="_blank">
+                <div class="input-container main-container">
+                    <label for="email">Email address:</label>
+                    <input class="input-box" type="email" name="email" id="email" placeholder="Email address">
+                </div>
+                <div class="name main-container">
+                    <div class="first-name input-container">
+                        <label for="first-name">First Name:</label>
+                        <input class="input-box" type="text" name="first-name" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="last-name input-container">
+                        <label for="last-name">Last Name:</label>
+                        <input class="input-box" type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="input-container phone-number main-container">
+                    <label for="phone-number">Phone Number:</label>
+                    <input class="input-box" type="text" name="phone-number" id="phone-number" placeholder="Phone Number">
+                </div>
+
+                <div class="input-container message main-container">
+                    <label for="message">Message:</label>
+                    <textarea class="input-box" id="message" name="message" rows="4" cols="50" form="contact-form" placeholder="Please type your message here ..."></textarea>
+                </div>
+            </form>
+            <button type="submit" form="contact" id="submit-btn" class="submit-btn">Submit</button>
+        </div>
+        <footer>
+            &#169 Luca Lungoci 2023
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
