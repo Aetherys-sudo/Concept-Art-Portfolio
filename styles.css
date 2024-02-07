@@ -119,7 +119,8 @@ nav {
   background-color: #faf8f5;
   width: 60%;
   margin: 0 auto;
-  height: 33%;
+  height: auto;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
