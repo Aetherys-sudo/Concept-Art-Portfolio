@@ -4,9 +4,6 @@
   --secondary-text-color: #333333;
 }
 
-.contact {
-  display: none;
-}
 html, body {
   /* Removes the default body margin */
   margin: 0; 
@@ -308,10 +305,15 @@ footer {
     text-align: center;
     justify-content: start;
     padding-top: 15%;
+    
+  }
+
+  .nav-links.active li > * {
+    color: white;
   }
 
   .nav-links.active li:hover {
-    background-color: yellow;
+    background-color: var(--main-text-color);
   }
 
   .nav-links.active li {
