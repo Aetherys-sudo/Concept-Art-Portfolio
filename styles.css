@@ -207,8 +207,7 @@ nav {
 }
 
 .description-title {
-  font-weight: bold;
-  font-size: 2em;
+  height: 100px;
 }
 
 .description-content {
